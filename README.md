@@ -55,7 +55,8 @@ After including the information in your .env file, run the following commands
 python manage.py migrate
 python manage.py runserver
 ```
-Congrats!, you setup the website locally!
+Congrats! you setup the website locally!
+Access CollegeConnect in your web browser at http://127.0.0.1:8000/
 ## Authors
 
 - [@ashmitg](https://www.github.com/ashmitg)
