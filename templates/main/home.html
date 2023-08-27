@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}
+    Home
+{% endblock title %}
+{% block content %}
+    <div class="ui stackable grid">
+        <div class="eight wide column">
+            <div class="ui segment welcome">
+                <h1>Welcome to CampusConnect!</h1>
+            </div>
+            <div class="ui segment benefits">
+                <h2>Join Our Community and Enjoy:</h2>
+                <div class="ui list">
+                    <div class="item">
+                        <i class="users icon"></i>
+                        <div class="content">
+                            <strong>Connect with Classmates</strong>
+                            <p>Build friendships and expand your network.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="comments icon"></i>
+                        <div class="content">
+                            <strong>Share Ideas & Experiences</strong>
+                            <p>Express yourself and learn from others.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="calendar alternate icon"></i>
+                        <div class="content">
+                            <strong>Stay Updated on Campus</strong>
+                            <p>Never miss an event or important news.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <i class="graduation cap icon"></i>
+                        <div class="content">
+                            <strong>Get Peer Advice</strong>
+                            <p>Receive academic and career guidance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <div class="ui segment call-to-action">
+                <h2>Ready to Join?</h2>
+                <p>Don't miss out on the ultimate college experience!</p>
+                <div class="ui fluid action buttons">
+                    <a href="{% url 'account_login' %}" class="ui primary button">Login</a>
+                    <div class="or"></div>
+                    <a href="{% url 'account_signup' %}" class="ui teal button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

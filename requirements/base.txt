@@ -1,0 +1,10 @@
+
+Pillow 
+python-dotenv 
+
+
+Django 
+django-allauth 
+
+
+psycopg2-binary

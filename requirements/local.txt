@@ -1,0 +1,12 @@
+-r ./base.txt
+
+
+pytest 
+pytest-cov 
+pytest-django 
+pytest-dotenv 
+
+ 
+
+
+django-debug-toolbar 
