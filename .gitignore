@@ -3,5 +3,5 @@ __pycache__
 .env
 .vscode
 .pytest_cache
-myenv
-requirements.txt
+media/avatars
+media/posts
