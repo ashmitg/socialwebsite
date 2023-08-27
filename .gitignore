@@ -5,3 +5,6 @@ __pycache__
 .pytest_cache
 media/avatars
 media/posts
+Procfile
+requirements.txt
+runtime.txt
